@@ -143,12 +143,13 @@
 </script>
 
 </body>
-    <!-- Подключаем библиотеку VK Bridge -->
-<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/index.umd.js"></script>
-<script>
-  // Отправляем сигнал ВКонтакте, что приложение готово к работе
-  vkBridge.send('VKWebAppInit');
-</script>
+        <!-- Подключаем библиотеку VK Bridge -->
+    <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/index.umd.js"></script>
+    <script>
+      // Отправляем сигнал ВКонтакте, что приложение готово
+      vkBridge.send('VKWebAppInit');
+    </script>
+    
     
   </html>
   
